@@ -74,7 +74,7 @@ export default function App() {
     <aside className={styles.sidebar}>
       <div className={styles.logo}><span><Boxes size={22}/></span><b>GadgetGrid</b></div>
       <nav><button className={styles.navActive}><Activity size={18}/> Inventory Hub</button><button><ShieldCheck size={18}/> Quality Center</button></nav>
-      <div className={styles.sidebarBottom}><small>TECH OPERATIONS</small><div className={styles.avatar}>AB</div><div><b>illEANA JIMENEZ</b><span>Administrator</span></div></div>
+      <div className={styles.sidebarBottom}><small>TECH OPERATIONS</small><div className={styles.avatar}>IJ</div><div><b>illEANA JIMENEZ</b><span>Administrator</span></div></div>
     </aside>
 
     <main>
