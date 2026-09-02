@@ -74,11 +74,11 @@ export default function App() {
     <aside className={styles.sidebar}>
       <div className={styles.logo}><span><Boxes size={22}/></span><b>GadgetGrid</b></div>
       <nav><button className={styles.navActive}><Activity size={18}/> Inventory Hub</button><button><ShieldCheck size={18}/> Quality Center</button></nav>
-      <div className={styles.sidebarBottom}><small>TECH OPERATIONS</small><div className={styles.avatar}>IJ</div><div><b>illEANA JIMENEZ</b><span>Administrator</span></div></div>
+      <div className={styles.sidebarBottom}><small>TECH OPERATIONS</small><div className={styles.avatar}>IJ</div><div><b>IllEANA JIMENEZ</b><span>Administrator</span></div></div>
     </aside>
 
     <main>
-      <header><div><p>INVENTORY / OVERVIEW</p><h1>Tech Gadget Inventory Hub</h1><span>Register, inspect, and monitor every device in one place.</span></div><button className={styles.primary} onClick={() => setShowForm(value => !value)}><Plus size={18}/>{showForm ? 'Close form' : 'Register gadget'}</button></header>
+      <header><div><p>INVENTORY / OVERVIEW</p><h1>Tech Gadget Inventory Hub</h1><span>Register, inspect, and monitor every device </span></div><button className={styles.primary} onClick={() => setShowForm(value => !value)}><Plus size={18}/>{showForm ? 'Close form' : 'Register gadget'}</button></header>
 
       <section className={styles.stats}>
         <article><span className={styles.blueIcon}><Boxes/></span><div><small>TOTAL GADGETS</small><strong>{items.length}</strong><p>Across {new Set(items.map(i => i.category)).size} categories</p></div></article>
